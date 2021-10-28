@@ -1,14 +1,70 @@
 
 
+ ul{
+      display:flex;
+      gap:10px;
+      width:100%;
+      color:black;
 
+ }
 
+ ul li{
+      list-style: none;
+      text-decoration: none;
+      padding:0 10px;
+
+     
+ }
+
+  a{
+      text-decoration: none;
+      color:white
+ }
 
 #welcome-section{
-     height: 100vh;
+    height: 100vh;
     background-color: brown;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:;
+    
 }
 
-#navbar {
+#navbar{
+     position:fixed;
+     margin-left:10px;
+     padding-left: 0%;
+     background-color:rgb(30, 30, 112) transparent;
+     color:white;
+     border-radius: 10px;
 
-     display: flex;
 }
+h1{
+     margin-top: 100px;
+     margin-right:200px;
+}
+
+ .together{
+      display:flex;
+      flex-direction: column;
+      margin-right:80px;
+      color:rgb(159, 236, 5);
+      font-family:Georgia, 'Times New Roman', Times, serif
+      
+ }
+
+ .together a{
+      color:rgb(159, 236, 5);
+      
+ }
+ .together-video{
+      display:flex;
+      justify-content:space-between;
+      margin-right:0;
+
+ }
+
+ .project-title{
+      margin-bottom: 30px;
+ }
